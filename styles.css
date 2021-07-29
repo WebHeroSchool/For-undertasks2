@@ -10,9 +10,10 @@ body {
 }
 .logo {
   margin-right: 63%;
-  padding: 40px 0;
+  background: url(img/logo.svg);
 }
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
