@@ -22,6 +22,7 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  margin-right: 4px;
 }
 .menu__item {
   position: relative;
