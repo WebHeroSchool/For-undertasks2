@@ -3,7 +3,9 @@ body {
 }
 .wrapper {
   margin: auto;
-  width: 78%;
+  padding-left: 196px;
+  padding-right: 201px;
+  /*width: 78%;*/
 }
 .logo, .menu {
   display: inline-block;
@@ -22,7 +24,6 @@ body {
 .menu {
   display: flex;
   align-items: center;
-  margin-right: 4px;
 }
 .menu__item {
   position: relative;
