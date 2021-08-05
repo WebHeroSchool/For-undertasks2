@@ -19,8 +19,7 @@ body {
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 176px;
-  /*margin-bottom: 206px;*/
+  margin-bottom: 126px;
 }
 .menu {
   display: flex;
@@ -38,7 +37,7 @@ body {
   margin-right: 0;
 }
 .main {
-  padding: 30px 63% 200px 0;
+  padding: 80px 63% 200px 0;
   background: top right no-repeat url('img/mainImg.svg');
   background-size: 770px;
 }
