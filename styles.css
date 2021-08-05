@@ -37,7 +37,7 @@ body {
   margin-right: 0;
 }
 .menu__item:first-child{
-  margin-right: 29px;
+  margin-right: 25px;
 }
 .main {
   padding: 80px 63% 252px 0;
@@ -73,6 +73,8 @@ body {
   position: absolute;
   display: block;
   content: '';
+  margin-top: 1px;
+  padding-right: 2px;
   left: 0;
   width: 0;
   height: 3px;
