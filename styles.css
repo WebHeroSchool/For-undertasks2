@@ -23,6 +23,9 @@ body {
   display: flex;
   align-items: center;
 }
+.menu__icon {
+  display: none;
+}
 .menu__item {
   position: relative;
   margin-right: 28px;
@@ -102,13 +105,25 @@ body {
 .menu {
   display: none;
   }
+.menu__icon {
+  display: inline-flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  width:25px;
+  height: 18px;
+  background: url('img/menu_icon.svg');
+  transition: opacity .5s;
+}
+.menu__icon:hover {
+  opacity: .5;
+}
 .header {
   padding:24px 0;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 .main {
   text-align: center;
-  padding: 79% 0 0;
+  padding: 74% 0 0;
   background-size: 74%;
   background-position: top center;
 }
