@@ -87,8 +87,8 @@ body {
   width: 100%;
 }
 .dots {
-  position: absolute;
-  margin-left: 944px;
+  margin-left: auto;
+  margin-right: auto;
   width:32px;
   height: 8px;
   background: no-repeat url('img/3dots.svg')
@@ -127,4 +127,66 @@ body {
 .dots {
   display: none;
 }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+ .wrapper {
+   width: 91%;
+ }
+ .header {
+   margin-bottom: 100px;
+ }
+ .main {
+   padding: 0 58% 120px 0;
+   background-size: 50%;
+ }
+ .main__title {
+   margin-bottom: 40px;
+   font: 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+ }
+ .main__subtitle {
+   margin-bottom: 41px;
+   font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+   padding: 0;
+ }
+ .main__button {
+   font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+ }
+ .dots {
+   
+ }
+ .menu__item {
+   font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+ }
+}
+
+@media (min-width:1025px) and (max-width:1367px) {
+ .wrapper {
+   width: 930px;
+ }
+ .header {
+   margin-bottom: 100px;
+ }
+ .main {
+   padding: 0 56% 120px 0;
+   background-size: 514px;
+ }
+ .main__title {
+   margin-bottom: 40px;
+   font: 50px/66px pt_serifbold, arial, helvetica, sans-serif;
+ }
+ .main__subtitle {
+   margin-bottom: 41px;
+   font: 500 18px/21px robotomedium, arial, helvetica, sans-serif;
+   padding: 0;
+ }
+ .main__button {
+   font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+ }
+ .dots {
+
+ }
+ .menu__item {
+   font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
+ }
 }
