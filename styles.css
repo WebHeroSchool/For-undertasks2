@@ -89,21 +89,26 @@ body {
 .dots {
   margin-left: auto;
   margin-right: auto;
+  vertical-align: baseline;
   width:32px;
   height: 8px;
   background: no-repeat url('img/3dots.svg')
 }
 
 @media (max-width:768px) {
+.wrapper {
+  width:87%;
+}
 .menu {
   display: none;
   }
 .header {
+  padding:24px 0;
   margin-bottom: 28px;
 }
 .main {
   text-align: center;
-  padding: 74% 0 0;
+  padding: 79% 0 0;
   background-size: 74%;
   background-position: top center;
 }
@@ -114,14 +119,14 @@ body {
 .main__subtitle {
   margin-bottom: 25px;
   font: 500 16px/19px robotomedium, arial, helvetica, sans-serif;
-  padding: 0;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .main__button {
   font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
 }
 .logo {
   width:36px;
-  height: 35px;
   background: url('img/logo.svg');
 }
 .dots {
@@ -153,7 +158,7 @@ body {
    font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
  }
  .dots {
-   
+
  }
  .menu__item {
    font: 500 14px/16px robotomedium, arial, helvetica, sans-serif;
