@@ -86,8 +86,7 @@ body {
   opacity: 1;
   width: 100%;
 }
-.dots
-{
+.dots {
   position: absolute;
   margin-left: 944px;
   width:32px;
@@ -124,5 +123,8 @@ body {
   width:36px;
   height: 35px;
   background: url('img/logo.svg');
+}
+.dots {
+  display: none;
 }
 }
