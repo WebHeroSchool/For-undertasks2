@@ -105,17 +105,30 @@ body {
 .menu {
   display: none;
   }
+.menu:target {
+  width: 375px;
+  height: 667px;
+  text-align: center;
+  display: block;
+  padding: 0px;
+  border: 1px solid #0000cc;
+
+}
 .menu__icon {
   display: inline-flex;
   justify-content: flex-end;
   margin-top: 8px;
   width:25px;
   height: 18px;
-  background: url('img/menu_icon.svg');
+  background: no-repeat url('img/menu_icon.svg');
   transition: opacity .5s;
 }
 .menu__icon:hover {
   opacity: .5;
+}
+
+.menu_icon:active {
+
 }
 .header {
   padding:24px 0;
