@@ -125,8 +125,8 @@ body {
 .menu__close {
   display: block;
   position: fixed;
-  margin-left: 327px;
-  margin-top: -170px;
+  margin-left: 308px;
+  margin-top: -156px;
   width: 20px;
   height: 20px;
   background: url('img/closing_menu_window.svg');
@@ -135,17 +135,14 @@ body {
   display: block;
   position: relative;
   margin-right: 28px;
-  margin-bottom: 24px;
+  margin-bottom: 26px;
   font: 500 30px/35px robotomedium, arial, helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
 }
-.menu__item:first-child {
-  padding-top: 186px;
-}
 .menu__item:last-child {
-  margin-right: 20px;
+  margin-right: 29px;
 }
 .menu__item_active::after{
   display: none;
@@ -165,11 +162,11 @@ body {
   width:25px;
   height: 18px;
   background: no-repeat url('img/menu_icon.svg');
-  transition: opacity .5s;
+  transition: opacity .4s;
   border: 0px;
 }
 .menu__icon:hover {
-  opacity: .5;
+  opacity: 0;
 }
 
 .menu_icon:active {
