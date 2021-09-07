@@ -126,11 +126,11 @@ body {
 .menu__close {
   display: block;
   position: fixed;
-  margin-left: 315px;
+  padding-left: 81.3%;
   margin-top: -156px;
   width: 20px;
   height: 20px;
-  background: url('img/closing_menu_window.svg');
+  background: no-repeat right url('img/closing_menu_window.svg');
 }
 .menu__item {
   display: block;
