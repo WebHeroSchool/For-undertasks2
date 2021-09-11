@@ -1,9 +1,12 @@
 
 @keyframes  button_animation {
-  from {
-    opacity: .6;
+  0% {
+    opacity: .4;
   }
-  to {
+  50% {
+    opacity: .7;
+  }
+  100% {
     opacity: 1;
   }
 }
@@ -140,6 +143,7 @@ body {
   padding-top: 186px;
   padding-left: 13px;
   background-color: white;
+  z-index: 1;
 }
 
 #checkbox:checked ~ .menu__icon {
@@ -205,12 +209,13 @@ body {
 }
 .header {
   padding:24px 0;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 .main {
   text-align: center;
   padding: 78% 0 0;
-  background-size: 85%;
+  padding-top: 260px;
+  background-size: 279px;
   background-position: top center;
 }
 .main__title {
